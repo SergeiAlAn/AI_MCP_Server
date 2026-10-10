@@ -1,0 +1,8 @@
+# Telegram bot
+#
+# ProxiAPI (proxyapi.ru) не имеет собственного pip-пакета: он OpenAI-совместим,
+# поэтому используется официальный клиент `openai` с base_url=https://api.proxyapi.ru/v1.
+python-telegram-bot>=21.0
+openai>=1.40
+httpx>=0.27
+python-dotenv>=1.0

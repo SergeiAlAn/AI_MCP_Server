@@ -1,0 +1,23 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Виртуальное окружение и кэш Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Локальная база данных (создаётся автоматически при запуске сервера)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Логи и служебные файлы
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
